@@ -148,6 +148,13 @@ header{
     width: calc(100% - 3.2rem);
 }
 
+.searchBar:hover{
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 20px #03e9f4,
+    0 0 0px #03e9f4;   
+}
+
 .searchBtn{
     width: 10rem;
     background-image: linear-gradient(to right, #FF83D5, #FFCCB0);
@@ -158,6 +165,10 @@ header{
 
 .searchBtn:hover{
     background-image: linear-gradient(to left, #FF83D5, #FFCCB0);
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 20px #03e9f4,
+                0 0 0px #03e9f4;
 }
 
 .smList{
